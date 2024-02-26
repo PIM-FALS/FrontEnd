@@ -24,14 +24,17 @@ class LoginScreen extends StatelessWidget {
               const LoginHeader(),
               // Form
               const LoginForm(),
-// Or sign in with
-            ///touch id
+              // Or sign in with
+              ///touch id
               FormDivider(dividerText: TTexts.loginWithTouchtId.capitalize!),
               Container(
-                alignment: Alignment.center,
+                  alignment: Alignment.center,
                   child: Padding(
                     padding: const EdgeInsets.all(8.0),
-                    child: Image(image: AssetImage('assets/logos/scanner.png'), width: 100, height: 100),
+                    child: Image(
+                        image: AssetImage('assets/logos/scanner.png'),
+                        width: 100,
+                        height: 100),
                   )),
               const SizedBox(height: TSizes.spaceBtwItems),
               // Or sign in with

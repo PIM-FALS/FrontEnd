@@ -1,3 +1,4 @@
+import 'package:fals/bottom_nav_bar.dart';
 import 'package:fals/features/authentication/screens/onboarding/onboarding.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
@@ -13,6 +14,6 @@ class App extends StatelessWidget {
         theme: TAppTheme.lightTheme,
         darkTheme: TAppTheme.darkTheme,
         debugShowCheckedModeBanner: false,
-        home: const OnBoardingScreen());
+        home:  OnBoardingScreen());
   }
 }

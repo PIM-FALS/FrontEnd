@@ -1,5 +1,7 @@
+import 'package:fals/bottom_nav_bar.dart';
 import 'package:fals/features/authentication/screens/password_configuration/reset_email/reset_password_with_email.dart';
 import 'package:fals/features/authentication/screens/signup/signup.dart';
+import 'package:fals/features/news/screens/home/home.dart';
 import 'package:fals/utils/constants/sizes.dart';
 import 'package:fals/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
@@ -118,7 +120,7 @@ class LoginForm extends StatelessWidget {
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () => Get.to(() => const BottomNavigationMenu()),
                 style: ElevatedButton.styleFrom(
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(50.0),
