@@ -1,9 +1,10 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
+
 // Reset Password with Email
 Future<void> resetPasswordWithEmail(String email) async {
-  final url = Uri.parse('YOUR_NODEJS_SERVER_URL/reset-password-email');
+  final url = Uri.parse('http://localhost:9090/auth/reset-password-email');
   try {
     final response = await http.post(
       url,
@@ -37,7 +38,7 @@ Future<void> resetPasswordWithEmail(String email) async {
 
 // Reset Password with Phone Number
 Future<void> resetPasswordWithPhoneNumber(String phoneNumber) async {
-  final url = Uri.parse('YOUR_NODEJS_SERVER_URL/reset-password-phone');
+  final url = Uri.parse('http://localhost:9090/auth/reset-password-phone');
   try {
     final response = await http.post(
       url,
