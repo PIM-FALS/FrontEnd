@@ -1,6 +1,7 @@
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 
+
 Future<void> signupUser(
   String username,
   String fistName,
@@ -9,7 +10,7 @@ Future<void> signupUser(
   String phoneNumber,
   String password,
 ) async {
-  final url = Uri.parse('http://localhost:9090/auth//signup');
+  final url = Uri.parse('http://localhost:9090/auth/signup');
   final response = await http.post(
     url,
     body: json.encode({
