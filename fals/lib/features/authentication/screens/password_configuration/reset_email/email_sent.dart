@@ -1,4 +1,3 @@
-import 'package:fals/common/widgets/success_screen/success_screen.dart';
 import 'package:fals/features/authentication/screens/login/login.dart';
 import 'package:fals/utils/constants/image_strings.dart';
 import 'package:fals/utils/constants/sizes.dart';

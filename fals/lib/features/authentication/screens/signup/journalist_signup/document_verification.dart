@@ -57,7 +57,7 @@ class _DocumentVerificationPageState
                       });
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: selectedDocument == 'Passport'
+                      backgroundColor: selectedDocument == 'Passport'
                           ? Colors.blue
                           : Colors.grey,
                     ),
@@ -73,7 +73,7 @@ class _DocumentVerificationPageState
                       });
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: selectedDocument == 'ID Card'
+                      backgroundColor: selectedDocument == 'ID Card'
                           ? Colors.blue
                           : Colors.grey,
                     ),

@@ -4,7 +4,6 @@ import 'package:fals/features/authentication/screens/signup/widgets/signup_radio
 import 'package:fals/features/authentication/screens/signup/widgets/terms_conditions.dart';
 import 'package:fals/utils/constants/sizes.dart';
 import 'package:fals/utils/constants/text_strings.dart';
-import 'package:fals/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
@@ -25,7 +24,6 @@ class _SignUpFormState extends State<SignUpForm> {
 
   @override
   Widget build(BuildContext context) {
-    final dark = THelperFunctions.isDarkMode(context);
 
     return Form(
       child: Column(

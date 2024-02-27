@@ -1,13 +1,11 @@
 import 'package:fals/features/news/screens/home/widgets/home_appbar.dart';
 import 'package:fals/utils/constants/image_strings.dart';
 import 'package:fals/utils/constants/sizes.dart';
-import 'package:fals/utils/helpers/helper_functions.dart';
 import 'package:flutter/material.dart';
 import '../../../../common/widgets/custom_shapes/containers/primary_header_container.dart';
 import '../../../../common/widgets/custom_shapes/containers/search_container.dart';
 import '../../../../common/widgets/image_text_widgets/vertical_image_text.dart';
 import '../../../../common/widgets/texts/section_heading.dart';
-import '../../../../utils/constants/colors.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key});

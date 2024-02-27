@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
-import '../../../../../utils/constants/colors.dart';
 import '../../../../../utils/constants/sizes.dart';
 import '../../../../../utils/constants/text_strings.dart';
 import 'otp_sent.dart';
@@ -58,9 +57,8 @@ class OTPResetPassword extends StatelessWidget {
             style: ElevatedButton.styleFrom(
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(50.0),
-              ),
-              padding: EdgeInsets.zero,
-              primary: Color(0xFF74069A), // Set background color
+              ), backgroundColor: Color(0xFF74069A),
+              padding: EdgeInsets.zero, // Set background color
             ),
             child: Ink(
               decoration: BoxDecoration(

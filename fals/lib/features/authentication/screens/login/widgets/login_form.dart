@@ -1,7 +1,5 @@
 import 'package:fals/bottom_nav_bar.dart';
-import 'package:fals/features/authentication/screens/password_configuration/reset_email/reset_password_with_email.dart';
 import 'package:fals/features/authentication/screens/signup/signup.dart';
-import 'package:fals/features/news/screens/home/home.dart';
 import 'package:fals/utils/constants/sizes.dart';
 import 'package:fals/utils/constants/text_strings.dart';
 import 'package:flutter/material.dart';
@@ -9,8 +7,6 @@ import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 
 import '../../password_configuration/forget_password.dart';
-import '../../password_configuration/reset_email/email_sent.dart';
-import '../../password_configuration/reset_password.dart';
 
 class SignUp extends StatelessWidget {
   const SignUp({
